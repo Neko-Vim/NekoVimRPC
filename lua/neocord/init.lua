@@ -787,7 +787,7 @@ function neocord:update_for_buffer(buffer, should_debounce)
   end
 
   if self.options.logo_tooltip ~= nil then
-    distro_text = self.options.logo_tooltip
+    distro_text = "NekoVim"
   end
   local use_language_as_main_image = self.options.main_image == "language"
   local assets = {
