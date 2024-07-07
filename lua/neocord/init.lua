@@ -70,7 +70,7 @@ function neocord:setup(...)
   -- General options
   utils.set_option(self, "auto_update", true) -- Your discord application id
   utils.set_option(self, "client_id", "1157438221865717891") -- Your discord application id
-  utils.set_option(self, "logo", "url") -- auto or url
+  utils.set_option(self, "logo", "auto") -- auto or url
   utils.set_option(self, "logo_tooltip", nil) -- nil or string
   utils.set_option(self, "main_image", "language") -- "language" or "logo"
   utils.set_option(self, "editing_text", "Editing %s")
