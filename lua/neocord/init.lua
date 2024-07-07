@@ -777,12 +777,7 @@ function neocord:update_for_buffer(buffer, should_debounce)
     logo = self.options.logo
   end
 
-  local distro_text
-  if utils.get_gui_info() ~= nil then
-    distro_text = string.format("%s in %s", utils.get_nvim_distro(), utils.get_gui_info())
-  else
-    distro_text = utils.get_nvim_distro()
-  end
+  local distro_text = "NekoVim"
 
   local icon
   if string.match(vim.bo.filetype, "git") or string.match(vim.bo.filetype, "fugitive") then
